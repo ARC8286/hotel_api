@@ -69,4 +69,6 @@ router.post('/',async (req,res)=>{
   }
 
  })
+
+ //we export router to server file
  module.exports = router;
