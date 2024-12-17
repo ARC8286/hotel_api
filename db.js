@@ -5,9 +5,10 @@
 
 // module.exports = db;
 const mongoose = require("mongoose");
+require('dotenv').config();
 
 // MongoDB connection URL
-const mongoURL = "mongodb+srv://amitchaudhary8286:GeVX9QLLML4E5guY@cluster0.zcyvj.mongodb.net/hotel"; 
+const mongoURL = process.env.DB_URL ; 
 
 // Connect to MongoDB
 mongoose.connect(mongoURL);
