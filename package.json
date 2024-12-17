@@ -1,0 +1,21 @@
+{
+  "name": "node.js-leran",
+  "version": "1.0.0",
+  "description": "for learning purpose",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "1234563"
+  ],
+  "author": "amit chaudhary",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "lodash": "^4.17.21",
+    "mongoose": "^8.8.4"
+  }
+}
