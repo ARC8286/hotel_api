@@ -65,7 +65,7 @@ router.patch('/:id',async (req,res)=>{
 router.delete('/:id',async (req,res)=>{
     try{
         const object_id = req.params.id;
-        const response = await person.findByIdAndDelete(object_id);
+        const person = await person.findByIdAndDelete(object_id);
         if(!response){
             res.status(404).json({err:"person not found"})
         }else{

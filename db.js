@@ -8,8 +8,8 @@ const mongoose = require("mongoose");
 require('dotenv').config();
 
 // MongoDB connection URL
-const mongoURL = process.env.DB_URL ; 
-
+// const mongoURL = process.env.DB_URL ; 
+const mongoURL = process.env.DB_URL;
 // Connect to MongoDB
 mongoose.connect(mongoURL);
 const db = mongoose.connection;
