@@ -18,7 +18,7 @@ app.use(logrequest);//it work for all router
 app.use(bodyparser.json());
 
 
-app.use(passport.initialize());
+app.use(passport.inigitialize());
 
 const auth = passport.authenticate('local',{session:false});
 
